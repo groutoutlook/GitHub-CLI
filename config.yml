@@ -158,8 +158,8 @@ aliases:
     re: repo edit
     rf: repo fork
     rfc: repo fork $1 --clone
-    rl: repo list
-    rlf: repo list --fork
+    rl: repo list -L=200
+    rlf: repo list --fork -L=200
     ro: repo clone
     rr: repo rename
     rsd: repo set-default
