@@ -56,13 +56,6 @@ aliases:
     go: gist clone
     gr: gist rename
     gv: gist view
-    h: auth
-    hl: auth login
-    ho: auth logout
-    hr: auth refresh
-    hs: auth status
-    hsg: auth setup-git
-    ht: auth token
     i: issue
     ic: issue create
     id: issue delete
@@ -199,6 +192,13 @@ aliases:
     xr: extension remove
     xs: extension search
     xu: extension upgrade
+    au: auth
+    aul: auth login
+    auo: auth logout
+    aur: auth refresh
+    aus: auth status
+    ausg: auth setup-git
+    aut: auth token
 # The path to a unix socket through which send HTTP connections. If blank, HTTP traffic will be handled by net/http.DefaultTransport.
 http_unix_socket:
 # What web browser gh should use when opening URLs. If blank, will refer to environment.
